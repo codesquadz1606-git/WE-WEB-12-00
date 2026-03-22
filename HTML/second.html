@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        Media tags : To display any audio, video or image
+        Always store you asset near your HTML file.
+
+        What is Attribute?
+        Attribute is a property that enhance functionality of a tag.
+        <tagname attributes=values...>
+
+        Table 
+        It is combination of rows & columns
+        table tag
+            tr tag (table row)
+                td/th tag (table data / table head)
+            
+            td & th both are at the same level , diffrence is td is display in normal format & th is displayed in bold and align center format.
+
+            cellspacing : space b/w outer cell & inner cell
+            cellpadding : space b/w cell and content
+
+        Advance Table
+        column merge : colspan attribute (horizontal merge)
+        row merge : rowspan attribute (vertical merge)
+
+    -->
+
+    <h1>Media Tag</h1>
+    <img width="300px" src="assets/image.jpeg" alt="Some error">
+    <audio controls src="assets/audio.mp3"></audio>
+    <video controls width="400px" src="assets/video.mp4"></video>
+
+    <hr>
+    
+    <h1>Table Tag</h1>
+    <table border="1" cellspacing="0" cellpadding="20">
+        <tr>
+            <th>Name</th>
+            <th>City</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Vikas</td>
+            <td>Hapur</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>Jatin</td>
+            <td>Noida</td>
+            <td>25</td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <tr>
+            <th colspan="2">Student Name</th>
+            <th colspan="3">Labs</th>
+            <th rowspan="2">Avg</th>
+        </tr>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Lab 1</th>
+            <th>Lab 2</th>
+            <th>Lab 3</th>
+        </tr>
+        <tr>
+            <td>Sol</td>
+            <td>Rosenberg</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100.0</td>
+        </tr>
+        <tr>
+            <td>Sol</td>
+            <td>Rosenberg</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100.0</td>
+        </tr>
+        <tr>
+            <td>Sol</td>
+            <td>Rosenberg</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100.0</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Summary</th>
+            <th>Avg</th>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <th>Min</th>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
+    </table>
+</body>
+</html>
