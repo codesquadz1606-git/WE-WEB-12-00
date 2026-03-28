@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* Internal CSS */
+
+    *{
+        background-color: black;
+        color: white;
+    }
+
+    #unique{
+        width: 300px;
+        height: 200px;
+        background-color: blue;
+    }
+
+    .common{
+        color: green;
+    }
+
+    h1{
+        color: blue;
+    }
+
+    .box{
+        width: 300px;
+        height: 300px;
+
+        /* border-width: 10px;
+        border-style: solid;
+        border-color: white; */
+        /* Shorthand */
+        /* border: solid 10px white; */
+
+        /* border-radius: 30px; */
+        /* border-top-left-radius:30px ;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius:0px ;
+        border-bottom-right-radius: 30px; */
+        /* Shorthand */
+        border-radius: 30px 0px 30px 0px;
+
+        border-top: 10px solid red;
+        border-left:10px solid green ;
+        border-bottom: 10px solid yellow;
+        border-right: 10px solid blue;
+
+        /* padding: 20px; */
+        /* padding-top: 40px;
+        padding-bottom: 100px;
+        padding-right: 50px;
+        padding-left: 0px; */
+
+        /* top left bottom right */
+        /* padding: 100px 0px 50px 50px; */
+
+        /* top-bottom left-right */
+        /* padding: 20px 30px; */
+
+        margin: 30px;
+    }
+</style>
+<body>
+    <!-- 
+        What is CSS?
+        Css stands Cascading Style Sheet
+        It is used to design a webpage structure.
+    -->
+
+    <!-- 
+        Three type of CSS:
+        1. Inline : Here we will write css in HTML tag itself.
+        2. Internal : Here we will write CSS in HTML file itself.
+        3. External : It means , we have create an external file and add the file in our HTML.
+    -->
+
+    <!-- Inline CSS -->
+    <!-- <div style="width: 300px; height: 300px; background-color: red;"></div> -->
+
+    <!-- CSS Selectors
+        1. id : It is denoted by # , used for unique elements.
+        2. class : It is denoted by . , and used for common styling
+        3. tagname : It is called by their name itself, but will apply to all the tags related to that
+        4. universal : It is denoted by * , which means whole body.
+    -->
+
+    <h1>Hello</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet fuga tenetur corporis, doloremque consequatur hic nisi, eligendi sequi nostrum quisquam harum? Maiores hic neque, facere blanditiis dicta ex sequi repellendus tempora tenetur animi repellat ducimus assumenda explicabo debitis fuga corporis, laudantium, aliquid ut quo magnam voluptatem ad doloribus possimus. Maxime explicabo asperiores atque tempora eligendi quis error reiciendis, impedit voluptatibus omnis nisi id odio nulla provident aut repellendus perferendis similique voluptatum, fugiat tenetur animi? Nulla illum sapiente eaque sit, aliquam inventore minus dicta perspiciatis ducimus. Unde maxime animi ad tempore eligendi obcaecati facilis perspiciatis quisquam quia! Animi vitae voluptates quidem?
+    </p>
+
+    <div id="unique"></div>
+
+    <div class="common">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cum doloribus nihil magni tempore magnam totam sit repellat omnis vitae, autem asperiores quaerat pariatur. Aliquid, repellat? Officia obcaecati voluptatibus earum fugit quas placeat nihil quae reprehenderit beatae laudantium magni atque, natus impedit ea ratione iusto labore debitis possimus architecto, quia nostrum. Repellat impedit amet laudantium odio, dolore cupiditate, delectus officia doloribus voluptatibus a eos ut obcaecati asperiores architecto? Tenetur quo officia nihil enim rem molestiae. Temporibus ullam, ut aperiam exercitationem amet facere similique consectetur velit, a tempora molestiae dolor quam sit est animi iure veniam rem dicta impedit. Dolor, ex.
+    </div>
+
+    <h1>My name is Ayush, Mern stack trainer at CodeSquadz</h1>
+
+    <hr>
+
+    <!-- 
+        Border 
+        1.border-width:
+        2.border-style:
+        3.border-color:
+        4.border-radius
+    -->
+
+    <div class="box">
+        Hello
+    </div>
+
+    <!-- 
+        Box Model:
+        1. Padding : Space b/w border & content is known as Padding
+        2. Margin : Space outside the border is known as Margin
+    -->
+
+    <!-- 
+        Displays : We manipulate the display of a tag.
+        1. Inline
+        2. Block
+        3. Inline-block
+    -->
+
+    <hr>
+
+    <!-- We have converted inline tag into a block tag -->
+    <span style="background-color: blue; display: block;">Hello</span>
+
+    <!-- We have converted block tag into a inline tag -->
+    <p style="background-color: yellow; display: inline;">Hello</p>
+
+    <hr>
+
+    <!-- If the content is in the first line till then it is a inline tag as soonas content transfers to the net line it is a block tag. -->
+    <div style="background-color: red; display: inline-block;">
+        hello everyone
+        hello everyone
+        hello everyone
+        hello everyone
+        hello everyone
+        hello everyone
+        hello everyone
+        hello everyone
+        hello everyone
+        hello everyone
+        hello everyone
+        hello everyone
+        hello everyone
+    </div>
+</body>
+</html>
