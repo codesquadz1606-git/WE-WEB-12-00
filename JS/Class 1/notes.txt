@@ -1,0 +1,45 @@
+Chapter 1 : Introduction To JS.
+JS is a scripting language which is used to create a logic for our UI.
+
+JS are of three types :
+--> Inline : Here we have to write code in particular tag.
+--> Internal : Here we have to write JS in our HTML file.
+--> External : We have to create an external file for this & then connect with our HTML file.
+
+What is console.log()?
+It is used to print the statement in my console window.
+
+Chapter 2: What is variable , Keywords , Data-Type & user-input.
+
+What is variable?
+Variable means where we store data in the memory and use that for fy=uture refrences.
+
+What is keywords?
+let , var & const
+
+var & const : are coming from older version
+let : es6 version.
+
+What is diffrence b/w let var & const?
+
+let keyword says that it cannot be redeclared but we can re-assign the value.
+
+var keyword says that it can be redeclared as well as re-assign.
+
+const keyword cannot be redeclared as well as re-assign.
+
+What is Data-Type?
+Data-Type means which type of value is stored in a variable.
+
+--> Number : any int & float(decimal) number
+--> String : any character inside "".
+--> Boolean : true or false
+--> undefined : where variable has no value.
+--> null
+
+What is user-input?
+Any input that is given at the runtime.
+prompt()
+
+string+string : concat
+Now we have convert this into a number : parseInt() or parseFloat()
