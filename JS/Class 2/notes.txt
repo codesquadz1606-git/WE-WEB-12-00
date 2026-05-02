@@ -1,0 +1,22 @@
+Whenever we call any variable , we don't use "".
+
+What is Template Literal?
+Here , we call variables in ${} and store sentence in ``(esc is niche waali key) .
+
+
+What is operators?
+Operators means operation of two or more operands.
+
+a+b=ab
+here a & b are operands
++ is operator.
+
+Type of Operators :
+1. Arthmetic Operators(+,-,*,/,%,**)
+2. Relational Operator (<,>,<=,>=,==,!=,===)
+3. Logical Operator (&& , || , !)
+4. Unary Operator (++ , --)
+5. Assignment Operator (=,+=,-=,*=,/=,%=,**=)
+6. Ternary Operator
+
+What is the diffrence b/w == & ===
