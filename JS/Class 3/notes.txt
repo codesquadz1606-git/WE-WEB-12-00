@@ -1,0 +1,53 @@
+Conditional Statement
+    Any program based on condition. 
+    i. if else
+        Syntax:
+        if(condition){ // it can be used multiple times.
+            run if condition is true
+        }
+        else{ // And else is only used single time.
+            run if condition is false.
+        }
+
+    ii. if else-if else
+        here else if is the additonal statement.
+
+
+    Switch Case
+    Their is multiple cases for a single switch.
+
+Control Flow Statement
+    : A statement that can be control , control in a way like from where to start , where to end.
+
+    What is loop?
+    Loop means iteration on any condition until it became false.
+
+    i. for loop
+        Syntax:
+        for(start;stop;step){
+            code;
+        }
+
+    ii. while loop
+        Syntax:
+
+        start;
+        while(stop){
+            code;
+            step;
+        }
+    iii. do-while loop
+
+        Syntax:
+        start;
+        do{
+            code;
+            step;
+        }while(condition);
+
+Math Function
+: PI
+: abs
+: ceil
+: floor
+: random
