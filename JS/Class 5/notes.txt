@@ -1,0 +1,30 @@
+Nested Array:
+    Array inside anthor array.
+
+What is objects?
+Storing data in key value pairs.
+{key:value}
+
+How can we access the key of any object?
+Method 1: using .keyname Method
+Method 2: using [keyname] Method
+
+What is functions?
+A block of code that is executed when it is called.
+
+syntax:
+function func_name(){ // declare & defined
+    code 
+}
+
+func_name() // call
+
+Parameter & Arugment : their will be some value or variable at function scope.
+
+Returning function : return keyword that give the value to the function.
+
+Function Expression : Variable function.
+
+Arrow Function : We will remove the function keyword
+
+Default Parameter Function 
