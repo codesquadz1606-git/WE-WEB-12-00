@@ -1,0 +1,41 @@
+String: String is a set of characters store in a "" is known as string.
+
+String is based on zero base indexing,
+STARTS FROM ZERO & GOES TILL LENGTH-1.
+
+String function 
+1. Searching
+    indexOf()
+    lastIndexOf()
+    includes()
+    startsWith()
+    endsWith()
+    search()
+2. Extraction
+    slice(start,end-1)
+    charAt()
+    at()
+3. Modification
+    replace()
+    replaceAll()
+    toUpperCase()
+    toLowerCase()
+    trim(),trimStart(),trimEnd() : removes the extra spaces.
+    repeat()
+    concat()
+4. Splting & Joining
+    split()
+    join()
+
+
+Array : Array is a collection of data at continous memory location.
+This is our first data structure
+
+[array items]
+
+Array FUnctions
+: push pop shift unshift (Adding & Removing elements from start or end)
+
+: splice(start,no.ofelements,add...) able to remove or add in between the array
+
+: reverse() , sort() , concat()
